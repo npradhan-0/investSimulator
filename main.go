@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	loggly "github.com/JamesPEarly/loggly"
+	loggly "github.com/jamespearly/loggly"
 	"github.com/joho/godotenv"
 )
 
