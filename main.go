@@ -110,8 +110,7 @@ func main() {
 	err := godotenv.Load()
 
 	if err != nil {
-		fmt.Println("Error loading .env file")
-		return
+		fmt.Println("No .env file found; using environment variables")
 	}
 
 	apiKey := os.Getenv("FINNHUB_API_KEY")
